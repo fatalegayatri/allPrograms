@@ -1,25 +1,20 @@
 #include <stdio.h>
 int main()
 {
-    int a, b;
-    a = 5;
-    while (a >= 1)
+    int a, b, c = 1;
+    a = 1;
+    while (a <= 5)
     {
         b = 1;
         while (b <= a)
         {
-            printf("%d\t", b);
+            printf("%d\t", c);
+            c++;
             b++;
         }
         printf("\n");
-        a--;
+        a++;
+        /* code */
     }
     return 0;
 }
-
-// output
-// 12345
-// 1234
-// 123
-// 12
-// 1

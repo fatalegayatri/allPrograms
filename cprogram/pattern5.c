@@ -8,18 +8,14 @@ int main()
         b = 1;
         while (b <= a)
         {
-            printf("%d\t", b);
+            printf("%d", a);
             b++;
+
+            /* code */
         }
         printf("\n");
         a--;
-    }
-    return 0;
-}
 
-// output
-// 12345
-// 1234
-// 123
-// 12
-// 1
+        /* code */
+    }
+}

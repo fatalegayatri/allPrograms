@@ -2,24 +2,16 @@
 int main()
 {
     int a, b;
-    a = 5;
-    while (a >= 1)
+    a = 1;
+    while (a <= 5)
     {
         b = 1;
         while (b <= a)
         {
-            printf("%d\t", b);
+            printf("%d", a);
             b++;
         }
         printf("\n");
-        a--;
+        a++;
     }
-    return 0;
 }
-
-// output
-// 12345
-// 1234
-// 123
-// 12
-// 1
