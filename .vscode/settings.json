@@ -3,5 +3,10 @@
         "editor.quickSuggestions": {
             "other": "inline"
         }
-    }
+    },
+    "files.associations": {
+        "iostream": "cpp",
+        "algorithm": "c"
+    },
+    "C_Cpp.errorSquiggles": "Disabled"
 }
