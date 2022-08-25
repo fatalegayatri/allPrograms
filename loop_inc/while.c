@@ -1,6 +1,6 @@
 // program for convert decimal number in octul number with header life math.h
-#include <stdio.h>
 #include <math.h>
+#include <stdio.h>
 
 int main()
 
