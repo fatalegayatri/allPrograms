@@ -12,7 +12,22 @@ int main()
     cin >> shym >> num1;
     cout << display(int num2, char sym, int num1);
     // cout << "answer is " << display(int an);
-
+    int sum(int a, char sy, int b)
+    {
+        return a + b;
+    }
+    int sub(int a, char sy, int b)
+    {
+        return a - b;
+    }
+    int mul(int a, char sy, int b)
+    {
+        return a * b;
+    }
+    int div(int a, char sy, int b)
+    {
+        return a / b;
+    }
     return 0;
 }
 int display(int v, char sy, int w)
@@ -22,18 +37,18 @@ int display(int v, char sy, int w)
     switch (sy)
     {
     case '+':
-        cout << v = v + w;
+        sum();
 
         /* code */
         break;
     case '-':
-        cout << v = v - w;
+        sub();
         break;
     case '/':
-        cout << v = v / w;
+        div();
         break;
     case '*':
-        cout << v = v * w;
+        mul();
         break;
 
     default:

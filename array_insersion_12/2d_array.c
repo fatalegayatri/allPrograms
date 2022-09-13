@@ -1,31 +1,33 @@
 #include <stdio.h>
+
+// void display(int *, int *, int *);
 int main()
 {
-    int stud = 3;
-    int sub = 5;
-    int mark[3][5];
-    for (int i = 0; i < stud; i++)
+
+    int mark[2][2];
+    for (int i = 0; i < 2; i++)
     {
-        for (int j = 0; j < sub; j++)
+        for (int j = 0; j < 2; j++)
         {
-            printf("Enter the %dth student marks in %dth sub", i + 1, j + 1);
+            printf("Enter the %dth student marks in %dth sub\n", i + 1, j + 1);
             scanf("%d", &mark[j][i]);
             /* code */
             /* code */
         }
-        void display(int mark[0] int stud int sub);
         // void display(mark[1]);
         // void display( int 89mark[3][5], int stud, int sub);
     }
+    display(&mark[0][0]);
     return 0;
 }
-void display(*mark[0] int stud int sub)
+void display(int *mark[0][0])
 {
-    for (int i = 0; i < stud; i++)
+
+    for (int i = 0; i < 2; i++)
     {
-        for (int j = 0; j < sub; j++)
+        for (int j = 0; j < 3; j++)
         {
-            printf("the marks of %dth student  marks is %d", i + 1, mark[i][j]);
+            printf("the marks of %dth student  in sub %d= is %d\n", i + 1, j + 1, *mark[i][j]);
             /* code */
         }
 

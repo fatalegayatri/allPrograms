@@ -7,9 +7,9 @@ public:
     int id;
     void getdetails()
     {
-        cout << " name:\n"
-             << name;
-        cout << "Id:" << id;
+        cout << " name:"
+             << name << endl;
+        cout << "Id:" << id << endl;
     }
 };
 int main()
