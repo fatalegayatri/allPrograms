@@ -7,7 +7,7 @@ public:
     void pattern()
     {
         c = 5;
-        for (size_t i = 1; i <= c; i++)
+        for (size_t i = 5; i <= c; i--)
         {
             for (size_t r = 1; r <= i; r++)
 
@@ -27,3 +27,9 @@ int main()
 
     return 0;
 }
+// output
+// *****
+// ****
+// ***
+// **
+// *
