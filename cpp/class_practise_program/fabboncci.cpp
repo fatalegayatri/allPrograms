@@ -29,13 +29,14 @@ public:
             }
             cout << k;
         }
-    };
-
-    int main()
-    {
-
-        int g;
-        fabo fabo(5);
-        // cout<<"the value"<<fabo fabo(9);
-        return 0;
     }
+};
+
+int main()
+{
+
+    int g;
+    fabo fabo(5);
+    // cout<<"the value"<<fabo fabo(9);
+    return 0;
+}
