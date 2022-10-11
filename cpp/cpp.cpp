@@ -30,9 +30,8 @@ int main()
     //     /* code */
     // }
 
-    int ayy[2] = {1, 2};
+        int ayy[2] = {1, 2};
     int *p = ayy;
     cout << *p;
-
     return 0;
 }
